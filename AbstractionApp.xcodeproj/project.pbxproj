@@ -54,14 +54,47 @@
 		6A1F589E21B6D42600192A10 /* AbstractionApp */ = {
 			isa = PBXGroup;
 			children = (
-				6A1F589F21B6D42600192A10 /* AppDelegate.swift */,
-				6A1F58A121B6D42600192A10 /* ViewController.swift */,
-				6A1F58A321B6D42600192A10 /* Main.storyboard */,
-				6A1F58A621B6D42E00192A10 /* Assets.xcassets */,
-				6A1F58A821B6D42E00192A10 /* LaunchScreen.storyboard */,
-				6A1F58AB21B6D42E00192A10 /* Info.plist */,
+				6A1F58B521B6D54700192A10 /* Model */,
+				6A1F58B421B6D51E00192A10 /* Resources */,
+				6A1F58B321B6D4F200192A10 /* Controller */,
+				6A1F58B221B6D4E000192A10 /* View */,
 			);
 			path = AbstractionApp;
+			sourceTree = "<group>";
+		};
+		6A1F58B221B6D4E000192A10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A1F58A821B6D42E00192A10 /* LaunchScreen.storyboard */,
+				6A1F58A321B6D42600192A10 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A1F58B321B6D4F200192A10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A1F58A121B6D42600192A10 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6A1F58B421B6D51E00192A10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A1F58AB21B6D42E00192A10 /* Info.plist */,
+				6A1F58A621B6D42E00192A10 /* Assets.xcassets */,
+				6A1F589F21B6D42600192A10 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A1F58B521B6D54700192A10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
